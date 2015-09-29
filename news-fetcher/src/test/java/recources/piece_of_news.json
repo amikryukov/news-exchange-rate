@@ -1,0 +1,93 @@
+{
+  "id": "australia-news/2015/sep/29/china-free-trade-agreement-must-not-slip-through-our-fingers-official-warns",
+  "type": "article",
+  "sectionId": "australia-news",
+  "webTitle": "China free trade agreement must not 'slip through our fingers', official warns",
+  "webPublicationDate": "2015-09-29T09:30:01Z",
+  "fields": {
+    "main": "<figure class=\"element element-image\" data-media-id=\"6d667466a79513bc95be4280d743783cfb2f5344\"> <img src=\"http://media.guim.co.uk/6d667466a79513bc95be4280d743783cfb2f5344/0_0_2400_1441/1000.jpg\" alt=\"China’s ambassador to Australia, Ma Zhaoxu, at a ceremony in Canberra on 16 September. \" width=\"1000\" height=\"600\" class=\"gu-image\" /> <figcaption> <span class=\"element-image__caption\">China’s ambassador to Australia, Ma Zhaoxu, at a ceremony in Canberra on 16 September. </span> <span class=\"element-image__credit\">Photograph: Xu Haijing/Xinhua Press/Corbis</span> </figcaption> </figure>",
+    "headline": "China free trade agreement must not 'slip through our fingers', official warns",
+    "standfirst": "<p>China’s ambassador to Australia says the trade agreement marks a high point in ties between the two countries and should be enforced as quickly as possible </p>"
+  },
+  "webUrl": "http://www.theguardian.com/australia-news/2015/sep/29/china-free-trade-agreement-must-not-slip-through-our-fingers-official-warns",
+  "apiUrl": "http://content.guardianapis.com/australia-news/2015/sep/29/china-free-trade-agreement-must-not-slip-through-our-fingers-official-warns",
+  "sectionName": "Australia news",
+  "tags": [
+    {
+      "id": "australia-news/australia-news",
+      "webTitle": "Australia news",
+      "type": "keyword",
+      "sectionId": "australia-news",
+      "webUrl": "http://www.theguardian.com/australia-news/australia-news",
+      "apiUrl": "http://content.guardianapis.com/australia-news/australia-news",
+      "sectionName": "Australia news"
+    },
+    {
+      "id": "world/china",
+      "webTitle": "China",
+      "type": "keyword",
+      "sectionId": "world",
+      "webUrl": "http://www.theguardian.com/world/china",
+      "apiUrl": "http://content.guardianapis.com/world/china",
+      "sectionName": "World news"
+    },
+    {
+      "id": "business/australia-economy",
+      "webTitle": "Australian economy",
+      "type": "keyword",
+      "sectionId": "business",
+      "webUrl": "http://www.theguardian.com/business/australia-economy",
+      "apiUrl": "http://content.guardianapis.com/business/australia-economy",
+      "sectionName": "Business"
+    },
+    {
+      "id": "australia-news/coalition",
+      "webTitle": "Coalition",
+      "description": "Latest news and comment on the Coalition, Tony Abbott and Australian politics",
+      "type": "keyword",
+      "sectionId": "australia-news",
+      "webUrl": "http://www.theguardian.com/australia-news/coalition",
+      "apiUrl": "http://content.guardianapis.com/australia-news/coalition",
+      "sectionName": "Australia news"
+    },
+    {
+      "id": "australia-news/labor-party",
+      "webTitle": "Labor party",
+      "description": "Latest news and comment on the Labor party and Australian politics",
+      "type": "keyword",
+      "sectionId": "australia-news",
+      "webUrl": "http://www.theguardian.com/australia-news/labor-party",
+      "apiUrl": "http://content.guardianapis.com/australia-news/labor-party",
+      "sectionName": "Australia news"
+    },
+    {
+      "id": "australia-news/penny-wong",
+      "webTitle": "Penny Wong",
+      "description": "Latest news on Penny Wong, Australian Labor politician, from the Guardian",
+      "type": "keyword",
+      "sectionId": "australia-news",
+      "webUrl": "http://www.theguardian.com/australia-news/penny-wong",
+      "apiUrl": "http://content.guardianapis.com/australia-news/penny-wong",
+      "sectionName": "Australia news"
+    },
+    {
+      "id": "world/asia-pacific",
+      "webTitle": "Asia Pacific",
+      "type": "keyword",
+      "sectionId": "world",
+      "webUrl": "http://www.theguardian.com/world/asia-pacific",
+      "apiUrl": "http://content.guardianapis.com/world/asia-pacific",
+      "sectionName": "World news"
+    },
+    {
+      "id": "australia-news/malcolm-turnbull",
+      "webTitle": "Malcolm Turnbull",
+      "description": "Latest news on Malcolm Turnbull, Australian politician, from the Guardian",
+      "type": "keyword",
+      "sectionId": "australia-news",
+      "webUrl": "http://www.theguardian.com/australia-news/malcolm-turnbull",
+      "apiUrl": "http://content.guardianapis.com/australia-news/malcolm-turnbull",
+      "sectionName": "Australia news"
+    }
+  ]
+}
