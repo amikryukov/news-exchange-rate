@@ -23,6 +23,11 @@ public class SingleSeriesAnalyzer {
     private TimeSerie serie;
 
     /**
+     * todo: use common normalization instead of hard code.
+     */
+    private final static int NORMALIZE_VALUE = 10_000;
+
+    /**
      * Constructs the analyzer.
      *
      * @param name name of analizer.
@@ -68,8 +73,12 @@ public class SingleSeriesAnalyzer {
 
         SimpleRegression regression = new SimpleRegression();
 
+        // to avoid long to double cast magic.
+        long startTimeStamp = set.iterator().next().getTimestamp();
         for (Point point : set) {
-            regression.addData(point.getTimestamp(), point.getValue());
+            regression.addData(
+                    (double)(point.getTimestamp() - startTimeStamp) / NORMALIZE_VALUE,
+                    point.getValue() * NORMALIZE_VALUE);
         }
 
         return regression.getSlope(); // slope of the regression.
