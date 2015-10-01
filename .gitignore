@@ -3,3 +3,5 @@
 .idea/**
 /*.imp
 /series.utils/*.iml
+series.utils/target*
+series.utils/target/*
