@@ -1,11 +1,12 @@
 package com.gd.amik.controllers.news.guardian;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * Describe single piece of news according to guardianapis.com API.
  */
-public class PieceOfNews {
+public class PieceOfNews implements Serializable {
 
     private final String topic;
 

@@ -1,6 +1,8 @@
 package com.gd.amik.dto;
 
-public class Status {
+import java.io.Serializable;
+
+public class Status implements Serializable {
 
     private final int code;
     private final String message;

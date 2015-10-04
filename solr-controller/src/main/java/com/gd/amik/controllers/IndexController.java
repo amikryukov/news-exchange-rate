@@ -23,6 +23,7 @@ import java.text.SimpleDateFormat;
  * Loads news, generate weight field, index to solr
  */
 
+// commented while dialling with other controller
 @Controller
 public class IndexController {
 
@@ -88,6 +89,7 @@ public class IndexController {
                     doc.addField("title", piece.getTitle());
                     doc.addField("date", piece.getDate());
                     doc.addField("web_url", piece.getWebURL());
+                    doc.addField("topic", piece.getTopic());
                     doc.addField("thumbnail", piece.getThumbnail());
                     for (String keyWord : piece.getKeywords()) {
                         doc.addField("keyword", keyWord);
