@@ -119,6 +119,7 @@
     <!--<dynamicField name="*_weight" type="double" indexed="true"  stored="true"  multiValued="false"/>-->
    <field name="keyword" type="string" indexed="true" stored="true" required="false" multiValued="true" />
     <field name="web_url" type="string" indexed="true" stored="true" required="false" multiValued="true" />
+    <field name="thumbnail" type="string" indexed="true" stored="true" required="false" multiValued="true" />
     <!-- News-exchange rate fields: End -->
 
 

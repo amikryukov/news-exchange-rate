@@ -346,3 +346,166 @@
 2015-10-04 15:30:59 INFO  TestController:19 - In TestController
 2015-10-04 15:31:09 INFO  TestController:19 - In TestController
 2015-10-04 15:31:09 INFO  TestController:19 - In TestController
+2015-10-04 16:13:42 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2015-10-04 16:13:42 INFO  XmlWebApplicationContext:513 - Refreshing Root WebApplicationContext: startup date [Sun Oct 04 16:13:42 MSK 2015]; root of context hierarchy
+2015-10-04 16:13:42 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2015-10-04 16:13:43 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 484 ms
+2015-10-04 16:13:43 INFO  DispatcherServlet:479 - FrameworkServlet 'dispatcher': initialization started
+2015-10-04 16:13:43 INFO  XmlWebApplicationContext:513 - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Oct 04 16:13:43 MSK 2015]; parent: Root WebApplicationContext
+2015-10-04 16:13:43 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2015-10-04 16:13:43 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index] onto handler 'indexServlet'
+2015-10-04 16:13:43 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index.*] onto handler 'indexServlet'
+2015-10-04 16:13:43 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index/] onto handler 'indexServlet'
+2015-10-04 16:13:43 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello] onto handler 'testController'
+2015-10-04 16:13:43 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello.*] onto handler 'testController'
+2015-10-04 16:13:43 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello/] onto handler 'testController'
+2015-10-04 16:13:43 INFO  DispatcherServlet:498 - FrameworkServlet 'dispatcher': initialization completed in 190 ms
+2015-10-04 16:13:59 INFO  TestController:19 - In TestController
+2015-10-04 16:14:00 INFO  TestController:19 - In TestController
+2015-10-04 16:21:34 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2015-10-04 16:21:34 INFO  XmlWebApplicationContext:513 - Refreshing Root WebApplicationContext: startup date [Sun Oct 04 16:21:34 MSK 2015]; root of context hierarchy
+2015-10-04 16:21:34 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2015-10-04 16:21:34 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 446 ms
+2015-10-04 16:21:34 INFO  DispatcherServlet:479 - FrameworkServlet 'dispatcher': initialization started
+2015-10-04 16:21:34 INFO  XmlWebApplicationContext:513 - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Oct 04 16:21:34 MSK 2015]; parent: Root WebApplicationContext
+2015-10-04 16:21:34 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2015-10-04 16:21:34 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index] onto handler 'indexController'
+2015-10-04 16:21:34 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index.*] onto handler 'indexController'
+2015-10-04 16:21:34 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index/] onto handler 'indexController'
+2015-10-04 16:21:34 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello] onto handler 'testController'
+2015-10-04 16:21:34 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello.*] onto handler 'testController'
+2015-10-04 16:21:34 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello/] onto handler 'testController'
+2015-10-04 16:21:35 INFO  DispatcherServlet:498 - FrameworkServlet 'dispatcher': initialization completed in 201 ms
+2015-10-04 16:25:54 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2015-10-04 16:25:54 INFO  XmlWebApplicationContext:513 - Refreshing Root WebApplicationContext: startup date [Sun Oct 04 16:25:54 MSK 2015]; root of context hierarchy
+2015-10-04 16:25:54 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2015-10-04 16:25:54 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 429 ms
+2015-10-04 16:25:54 INFO  DispatcherServlet:479 - FrameworkServlet 'dispatcher': initialization started
+2015-10-04 16:25:54 INFO  XmlWebApplicationContext:513 - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Oct 04 16:25:54 MSK 2015]; parent: Root WebApplicationContext
+2015-10-04 16:25:54 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2015-10-04 16:25:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index] onto handler 'indexController'
+2015-10-04 16:25:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index.*] onto handler 'indexController'
+2015-10-04 16:25:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index/] onto handler 'indexController'
+2015-10-04 16:25:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello] onto handler 'testController'
+2015-10-04 16:25:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello.*] onto handler 'testController'
+2015-10-04 16:25:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello/] onto handler 'testController'
+2015-10-04 16:25:54 INFO  DispatcherServlet:498 - FrameworkServlet 'dispatcher': initialization completed in 197 ms
+2015-10-04 17:20:27 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2015-10-04 17:20:27 INFO  XmlWebApplicationContext:513 - Refreshing Root WebApplicationContext: startup date [Sun Oct 04 17:20:27 MSK 2015]; root of context hierarchy
+2015-10-04 17:20:27 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2015-10-04 17:20:27 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 446 ms
+2015-10-04 17:20:27 INFO  DispatcherServlet:479 - FrameworkServlet 'dispatcher': initialization started
+2015-10-04 17:20:27 INFO  XmlWebApplicationContext:513 - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Oct 04 17:20:27 MSK 2015]; parent: Root WebApplicationContext
+2015-10-04 17:20:27 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2015-10-04 17:20:28 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/deleteAll] onto handler 'indexController'
+2015-10-04 17:20:28 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/deleteAll.*] onto handler 'indexController'
+2015-10-04 17:20:28 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/deleteAll/] onto handler 'indexController'
+2015-10-04 17:20:28 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index] onto handler 'indexController'
+2015-10-04 17:20:28 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index.*] onto handler 'indexController'
+2015-10-04 17:20:28 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index/] onto handler 'indexController'
+2015-10-04 17:20:28 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello] onto handler 'testController'
+2015-10-04 17:20:28 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello.*] onto handler 'testController'
+2015-10-04 17:20:28 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello/] onto handler 'testController'
+2015-10-04 17:20:28 INFO  DispatcherServlet:498 - FrameworkServlet 'dispatcher': initialization completed in 366 ms
+2015-10-04 17:23:19 INFO  TestController:19 - In TestController
+2015-10-04 17:28:16 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2015-10-04 17:28:17 INFO  XmlWebApplicationContext:513 - Refreshing Root WebApplicationContext: startup date [Sun Oct 04 17:28:17 MSK 2015]; root of context hierarchy
+2015-10-04 17:28:17 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2015-10-04 17:28:17 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 424 ms
+2015-10-04 17:28:17 INFO  DispatcherServlet:479 - FrameworkServlet 'dispatcher': initialization started
+2015-10-04 17:28:17 INFO  XmlWebApplicationContext:513 - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Oct 04 17:28:17 MSK 2015]; parent: Root WebApplicationContext
+2015-10-04 17:28:17 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2015-10-04 17:28:17 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/deleteAll] onto handler 'indexController'
+2015-10-04 17:28:17 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/deleteAll.*] onto handler 'indexController'
+2015-10-04 17:28:17 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/deleteAll/] onto handler 'indexController'
+2015-10-04 17:28:17 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index] onto handler 'indexController'
+2015-10-04 17:28:17 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index.*] onto handler 'indexController'
+2015-10-04 17:28:17 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index/] onto handler 'indexController'
+2015-10-04 17:28:17 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello] onto handler 'testController'
+2015-10-04 17:28:17 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello.*] onto handler 'testController'
+2015-10-04 17:28:17 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello/] onto handler 'testController'
+2015-10-04 17:28:17 INFO  DispatcherServlet:498 - FrameworkServlet 'dispatcher': initialization completed in 199 ms
+2015-10-04 17:28:23 INFO  IndexController:50 - Start indexing ...
+2015-10-04 17:28:23 INFO  IndexController:119 - Start loading series analizer ...
+2015-10-04 17:28:23 ERROR IndexController:58 - Exception while indexing
+java.io.FileNotFoundException: src/main/resources/DAT_NT_EURUSD_T_ASK_201508.csv (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at com.gd.amik.controllers.series.SeriesLoader.load(SeriesLoader.java:24)
+	at com.gd.amik.controllers.IndexController.init(IndexController.java:121)
+	at com.gd.amik.controllers.IndexController.doDeleteAll(IndexController.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:175)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:446)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:434)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:945)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:801)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1126)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1060)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:113)
+	at org.eclipse.jetty.server.Server.handle(Server.java:509)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:288)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:240)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:539)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:620)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:540)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-04 17:30:01 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2015-10-04 17:30:01 INFO  XmlWebApplicationContext:513 - Refreshing Root WebApplicationContext: startup date [Sun Oct 04 17:30:01 MSK 2015]; root of context hierarchy
+2015-10-04 17:30:01 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2015-10-04 17:30:02 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 829 ms
+2015-10-04 17:30:02 INFO  DispatcherServlet:479 - FrameworkServlet 'dispatcher': initialization started
+2015-10-04 17:30:02 INFO  XmlWebApplicationContext:513 - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Oct 04 17:30:02 MSK 2015]; parent: Root WebApplicationContext
+2015-10-04 17:30:02 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2015-10-04 17:30:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/deleteAll] onto handler 'indexController'
+2015-10-04 17:30:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/deleteAll.*] onto handler 'indexController'
+2015-10-04 17:30:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/deleteAll/] onto handler 'indexController'
+2015-10-04 17:30:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index] onto handler 'indexController'
+2015-10-04 17:30:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index.*] onto handler 'indexController'
+2015-10-04 17:30:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index/] onto handler 'indexController'
+2015-10-04 17:30:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello] onto handler 'testController'
+2015-10-04 17:30:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello.*] onto handler 'testController'
+2015-10-04 17:30:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello/] onto handler 'testController'
+2015-10-04 17:30:02 INFO  DispatcherServlet:498 - FrameworkServlet 'dispatcher': initialization completed in 315 ms
+2015-10-04 17:30:30 INFO  IndexController:50 - Start indexing ...
+2015-10-04 17:30:30 INFO  IndexController:119 - Start loading series analizer ...
+2015-10-04 17:30:33 INFO  IndexController:125 - series analizer was loaded successfully
+2015-10-04 17:32:00 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2015-10-04 17:32:00 INFO  XmlWebApplicationContext:513 - Refreshing Root WebApplicationContext: startup date [Sun Oct 04 17:32:00 MSK 2015]; root of context hierarchy
+2015-10-04 17:32:00 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2015-10-04 17:32:00 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 418 ms
+2015-10-04 17:32:00 INFO  DispatcherServlet:479 - FrameworkServlet 'dispatcher': initialization started
+2015-10-04 17:32:00 INFO  XmlWebApplicationContext:513 - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Oct 04 17:32:00 MSK 2015]; parent: Root WebApplicationContext
+2015-10-04 17:32:00 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2015-10-04 17:32:00 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/deleteAll] onto handler 'indexController'
+2015-10-04 17:32:00 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/deleteAll.*] onto handler 'indexController'
+2015-10-04 17:32:00 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/deleteAll/] onto handler 'indexController'
+2015-10-04 17:32:00 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index] onto handler 'indexController'
+2015-10-04 17:32:00 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index.*] onto handler 'indexController'
+2015-10-04 17:32:00 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/index/] onto handler 'indexController'
+2015-10-04 17:32:00 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello] onto handler 'testController'
+2015-10-04 17:32:00 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello.*] onto handler 'testController'
+2015-10-04 17:32:00 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/hello/] onto handler 'testController'
+2015-10-04 17:32:01 INFO  DispatcherServlet:498 - FrameworkServlet 'dispatcher': initialization completed in 201 ms
+2015-10-04 17:32:11 INFO  IndexController:50 - Start indexing ...
+2015-10-04 17:32:11 INFO  IndexController:119 - Start loading series analizer ...
+2015-10-04 17:32:14 INFO  IndexController:125 - series analizer was loaded successfully
