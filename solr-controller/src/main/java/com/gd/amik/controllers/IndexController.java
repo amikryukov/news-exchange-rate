@@ -11,6 +11,7 @@ import org.apache.solr.client.solrj.impl.HttpSolrClient;
 import org.apache.solr.common.SolrInputDocument;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -34,15 +35,17 @@ public class IndexController {
 
     // todo: make it configurable
     private GuardianNewsLoader newsLoader;
-    private HttpSolrClient solrClient;
     private SingleSeriesAnalyzer seriesAnalizer;
+
+    @Autowired
+    private HttpSolrClient httpSolrClient;
+
+    @Autowired
     private SimpleDateFormat dateFormat;
 
     public IndexController() throws IOException, ParseException {
 
         newsLoader = new GuardianNewsLoader("test");
-        dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'hh:mm:ss'Z'");
-
         init();
     }
 
@@ -53,8 +56,8 @@ public class IndexController {
             log.info("Start deleteAll ...");
 
             // delete everything
-            solrClient.deleteByQuery("*:*");
-            solrClient.commit();
+            httpSolrClient.deleteByQuery("*:*");
+            httpSolrClient.commit();
             return "OK";
         } catch (Exception e) {
             log.error("Exception while indexing", e);
@@ -70,8 +73,8 @@ public class IndexController {
             log.info("Start indexing ...");
 
             // hardcodded 2 mounths
-            //String startDate = "2015-08-01";
-            String startDate = "2015-09-25"; // 3 days for testing
+            String startDate = "2015-08-01";
+            //String startDate = "2015-09-25"; // 3 days for testing
             String endDate = "2015-09-29";
             int pageSize = 200; // max page size guardian provides.
             int currentPage = 1;
@@ -95,7 +98,7 @@ public class IndexController {
                         doc.addField("keyword", keyWord);
                     }
                     doc.addField("eur_us_weight", analizeTheNew(piece));
-                    solrClient.add(doc);
+                    httpSolrClient.add(doc);
                 }
 
                 log.info("Loaded: news.size.loaded=" + setOfNews.getNews().size() +
@@ -105,7 +108,7 @@ public class IndexController {
                 currentPage++;
             }
 
-            solrClient.commit();
+            httpSolrClient.commit();
             log.info("All documents were loadded and committed.");
             return "OK";
         } catch (Exception e) {
@@ -125,16 +128,15 @@ public class IndexController {
             seriesAnalizer = new SingleSeriesAnalyzer("eur_us", timeSerie);
             log.info("series analizer was loaded successfully");
         }
-
-        if (solrClient == null) {
-            solrClient = new HttpSolrClient("http://localhost:8983/solr/news");
-//            solrServer.setParser(new XMLResponseParser());
-        }
     }
 
     private double analizeTheNew(PieceOfNews piece) throws ParseException {
         String dateStr = piece.getDate();
         long date = dateFormat.parse(dateStr).getTime();
-        return seriesAnalizer.calculateActivity(date - DATE_RANGE, date + DATE_RANGE);
+        double preResult = seriesAnalizer.calculateActivity(date - DATE_RANGE, date + DATE_RANGE);
+        if (preResult == 0D) {
+            return Double.MIN_NORMAL;
+        }
+        return preResult;
     }
 }
