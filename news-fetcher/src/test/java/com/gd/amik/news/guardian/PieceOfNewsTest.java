@@ -32,10 +32,7 @@ public class PieceOfNewsTest {
             keywords.add(jsonArray.getJsonObject(i).getString("webTitle"));
         }
 
-        SimpleDateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd'T'hh:mm:ss'Z'");
-        Date date = dateFormatter.parse(jObject.getString("webPublicationDate"));
-
-        PieceOfNews result = new PieceOfNews(topic, title, main, keywords, date);
+        new PieceOfNews(topic, title, main, keywords, jObject.getString("webPublicationDate"));
 
         assertEquals("Australia news", topic);
     }

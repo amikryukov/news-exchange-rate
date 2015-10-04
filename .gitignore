@@ -1,7 +1,11 @@
-/news-fetcher/*.imp
+/news-fetcher/*.iml
 /news-fetcher/target/**
 .idea/**
 /*.imp
 /series.utils/*.iml
 series.utils/target*
 series.utils/target/*
+solr-controller/target*
+solr-controller/target/*
+solr-controller/*.iml
+
