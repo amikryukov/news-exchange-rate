@@ -1,9 +1,5 @@
 package com.gd.amik.news.guardian;
 
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlElementWrapper;
-import javax.xml.bind.annotation.XmlRootElement;
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -19,7 +15,7 @@ public class PieceOfNews {
 
     private final List<String> keywords;
 
-    private final Date date;
+    private final String date;
 
     /**
      * Used by JaxB
@@ -32,7 +28,7 @@ public class PieceOfNews {
         this.date = null;
     }
 
-    public PieceOfNews(String topic, String title, String main, List<String> keywords, Date date) {
+    public PieceOfNews(String topic, String title, String main, List<String> keywords, String date) {
         this.topic = topic;
         this.title = title;
         this.main = main;
@@ -56,7 +52,7 @@ public class PieceOfNews {
         return keywords;
     }
 
-    public Date getTime() {
+    public String getTime() {
         return date;
     }
 

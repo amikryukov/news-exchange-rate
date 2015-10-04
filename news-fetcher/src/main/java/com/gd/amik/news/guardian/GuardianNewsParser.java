@@ -37,16 +37,16 @@ public class GuardianNewsParser {
             for (int j = 0; j < jsonArray.size(); j ++) {
                 keywords.add(jsonArray.getJsonObject(j).getString("webTitle"));
             }
-
-            SimpleDateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd'T'hh:mm:ss'Z'");
-            Date date = null;
-            try {
-                date = dateFormatter.parse(theNew.getString("webPublicationDate"));
-            } catch (ParseException e) {
-                // todo: add logger
-                e.printStackTrace();
-            }
-            PieceOfNews result = new PieceOfNews(topic, title, main, keywords, date);
+//             // No need to create long
+//            SimpleDateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd'T'hh:mm:ss'Z'");
+//            Date date = null;
+//            try {
+//                date = dateFormatter.parse(theNew.getString("webPublicationDate"));
+//            } catch (ParseException e) {
+//                // todo: add logger
+//                e.printStackTrace();
+//            }
+            PieceOfNews result = new PieceOfNews(topic, title, main, keywords, theNew.getString("webPublicationDate"));
             setOfNews.addNew(result);
         }
 
